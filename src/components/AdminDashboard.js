@@ -3,23 +3,23 @@ import axios from 'axios';
 import { Button, Card, CardContent, Typography, Box } from '@mui/material'; // MUI components
 import './adminDashboard.css';
 
-const Header = () => (
-  <header className="header">
-    <h1>Admin Dashboard</h1>
-    <nav>
-      <a href="/home">Home</a>
-      <a href="/settings">Settings</a>
-      <a href="/logout">Logout</a>
-    </nav>
-  </header>
-);
+// const Header = () => (
+//   <header className="header">
+//     <h1>Admin Dashboard</h1>
+//     <nav>
+//       <a href="/home">Home</a>
+//       <a href="/settings">Settings</a>
+//       <a href="/logout">Logout</a>
+//     </nav>
+//   </header>
+// );
 
 const Footer = () => (
   <footer className="footer">
     <p>&copy; {new Date().getFullYear()} Bank Of Barcelona. All Rights Reserved.</p>
     <p>
-      <a href="#">Privacy Policy</a>
-      <a href="#">Terms of Service</a>
+      <a>Privacy Policy</a>
+      <a>Terms of Service</a>
     </p>
   </footer>
 );
